@@ -1,6 +1,6 @@
 import assert from 'assert'
 import path from 'path'
-import { readFileSync, writeFileSync } from 'fs'
+import { readFileSync } from 'fs'
 import { describe, it } from 'mocha'
 import buildCalendar from '../../src/buildCalendar'
 
