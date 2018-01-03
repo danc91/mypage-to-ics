@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/angeloashmore/mypage-to-ics.git"
+    "url": "git+https://github.com/danc91/mypage-to-ics.git"
   },
   "keywords": [
     "schedule",
@@ -21,9 +21,9 @@
   "author": "Angelo Ashmore",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/angeloashmore/mypage-to-ics/issues"
+    "url": "https://github.com/danc91/mypage-to-ics/issues"
   },
-  "homepage": "https://github.com/angeloashmore/mypage-to-ics#readme",
+  "homepage": "https://github.com/danc91/mypage-to-ics#readme",
   "devDependencies": {
     "babel-core": "^6.11.4",
     "babel-eslint": "^6.0.2",
