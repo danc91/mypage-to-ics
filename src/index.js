@@ -3,7 +3,7 @@ import buildCalendar from './buildCalendar'
 const schDataEl = document.getElementById('schData')
 
 if (!schDataEl) {
-  window.alert('Please run this script on myPage Time Overview.')
+  window.alert('Please run this script on  myPage Time Overview.')
 } else {
   try {
     const schData = JSON.parse(schDataEl.value)
