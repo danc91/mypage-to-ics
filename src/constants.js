@@ -5,7 +5,7 @@ export const CALENDAR = {
 
 export const EVENT = {
   LOCATION: 'Apple, Trinity Leeds',
-  SUMMARY: (startTime, endTime) => `You work ${startTime} - ${endTime}`
+  SUMMARY: (startTime, endTime) => `Work ${startTime} - ${endTime}`
 }
 
 export const ALARM = {
