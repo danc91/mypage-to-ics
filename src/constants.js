@@ -8,7 +8,4 @@ export const EVENT = {
   SUMMARY: (startTime, endTime) => `Work ${startTime} - ${endTime}`
 }
 
-export const ALARM = {
-  ACTION: 'DISPLAY',
-  DESCRIPTION: 'Event Reminder'
-}
+
