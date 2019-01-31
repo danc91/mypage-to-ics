@@ -2,16 +2,7 @@ import { Component, Property } from 'immutable-ics'
 import values from 'lodash.values'
 import capitalize from 'lodash.capitalize'
 import guid from 'simple-guid'
-import { ALARM, CALENDAR, EVENT } from './constants'
-
-const buildAlarm = (trigger) => new Component({
-  name: 'VALARM',
-  properties: [
-    new Property({ name: 'ACTION', value: ALARM.ACTION }),
-    new Property({ name: 'TRIGGER', value: trigger }),
-    new Property({ name: 'DESCRIPTION', value: ALARM.DESCRIPTION })
-  ]
-})
+import { CALENDAR, EVENT } from './constants'
 
 const buildEvent = (segments) => {
   const { startDate, startTime } = segments[0]
