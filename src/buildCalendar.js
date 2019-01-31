@@ -44,9 +44,6 @@ const buildEvent = (segments) => {
       new Property({ name: 'DTSTART', value: start }),
       new Property({ name: 'DTEND', value: end })
     ],
-    components: [
-      buildAlarm('-PT1H')
-    ]
   })
 }
 
